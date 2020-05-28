@@ -1,3 +1,4 @@
+<div class="show">
 <% if flash[:notice] %>
  <p><%= flash[:notice] %></p>
 <% end %>
@@ -8,3 +9,4 @@
 
 <%= link_to "Edit", edit_book_path(@book) %>
 <%= link_to "Back", books_path %>
+</div>

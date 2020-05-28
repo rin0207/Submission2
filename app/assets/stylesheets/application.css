@@ -13,3 +13,30 @@
  *= require_tree .
  *= require_self
  */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.top{
+	margin: 33px;
+}
+.top-text{
+	margin: 33px;
+	font-size: 12px;
+}
+.start-link{
+	margin: 33px;
+}
+main{
+	margin: 33px;
+}
+.button{
+	display: block;
+}
+.edit{
+	margin: 33px;
+}
+.show{
+	margin: 33px;
+}
